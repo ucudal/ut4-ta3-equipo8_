@@ -265,7 +265,7 @@ public class TArbolBBTest {
         arbol.insertar(new TElementoAB("5",null));
         arbol.insertar(new TElementoAB("3",null));
         arbol.insertar(new TElementoAB("2",null));
-        int expResult = 4;
+        int expResult = 3;
         int result = arbol.obtenerTamanio();
         assertEquals(expResult, result);
     }
@@ -279,7 +279,7 @@ public class TArbolBBTest {
         arbol.insertar(new TElementoAB("5",null));
         arbol.insertar(new TElementoAB("3",null));
         arbol.insertar(new TElementoAB("4",null));
-        int expResult = 4;
+        int expResult = 3;
         int result = arbol.obtenerTamanio();
         assertEquals(expResult, result);
     }
